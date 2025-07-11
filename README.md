@@ -1,12 +1,46 @@
-# React + Vite
+# 🌿 Redona · Landing Page
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Bienvenido/a a la landing oficial de **Redona**, una plataforma pensada para **conectar personas a través de la donación**. Esta página web transmite empatía, funcionalidad y propósito. Fue desarrollada en React, con enfoque modular y diseño emocional.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 💡 ¿Qué es Redona?
 
-## Expanding the ESLint configuration
+Redona es una iniciativa que permite publicar objetos para donar y recibir ayuda concreta sin transacciones monetarias. Esta landing tiene como objetivo explicar cómo funciona el servicio, mostrar testimonios y ofrecer un canal de contacto directo.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## ✨ Funcionalidades principales
+
+- **Hero animado** con textura emocional y transiciones suaves
+- **Sección de testimonios reales** con carrusel automatizado (`Framer Motion`)
+- **Bloque “¿Por qué donar?”** conectado al componente de beneficios (`Features`)
+- **Formulario de contacto funcional** integrado con [EmailJS](https://www.emailjs.com/)
+- **Footer completo** con logo, navegación interna y cierre emocional
+- **Enlaces anclados** que guían al usuario entre secciones
+
+---
+
+## 🧑‍💻 Tecnologías usadas
+
+- [React](https://reactjs.org/) para la estructura de componentes
+- [Tailwind CSS](https://tailwindcss.com/) para estilos responsivos y visual limpio
+- [Framer Motion](https://www.framer.com/motion/) para animaciones
+- [EmailJS](https://www.emailjs.com/) para envío de formularios sin backend
+
+---
+
+## 📬 Enlaces útiles
+
+- 🌐 Aplicación principal: [Redona App](https://www.integracionav.com.ar/login)
+- 📣 Contacto: a través del formulario incluido en el footer
+
+---
+
+## 🚀 Cómo correrlo localmente
+
+```bash
+git clone https://github.com/tu-usuario/redona.git
+cd redona
+npm install
+npm start
